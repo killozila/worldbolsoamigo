@@ -46,7 +46,7 @@ const App = () => {
   return (
     <>
 
-    <a onClick={() => window.location.href='https://vercel.com/killozila/worldbolsoamigo'}
+    <a onClick={() => window.location.href='https://worldamigo.vercel.app/index.html'}
             className="absolute top-4 left-4 px-4 py-2 text-white rounded bg-transparent hover:bg-black transition duration-300 ease-in-out cursor-pointer"
     >
       Voltar
