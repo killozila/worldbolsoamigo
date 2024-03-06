@@ -20,7 +20,7 @@ const FormStep2 = () => {
   const handleSubmission = async () => {
     await dispatch({
       type: "UPDATE_FORM_DATA",
-      payload: { billingPlan: plan, billingCycle: isMonthly ? 'monthly' : 'yearly' },
+      payload: { billingPlan: plan, billingCycle: isMonthly ? 'unico' : 'anual' },
     });
     dispatch({ type: "NEXT_STEP" });
   };

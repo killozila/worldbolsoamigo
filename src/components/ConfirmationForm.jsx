@@ -5,7 +5,7 @@ import axios from 'axios'; // Importe o Axios
 const ConfirmationForm = ({ setFormConfirmed }) => {
     const { state, dispatch } = useFormContext();
     const formData = state.formData;
-    const isMonthly = formData.billingCycle === "monthly" ? true : false;
+    const isMonthly = formData.billingCycle === "unico" ? true : false;
     const time = isMonthly ? "" : "/Ano";
     let billingPlan = formData.billingPlan;
     let totalAmount = 0;

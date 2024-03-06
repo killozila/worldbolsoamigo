@@ -61,7 +61,7 @@ const FormStep3 = () => {
           </div>
           <div>
             <p className="text-neutral-cool-gray">
-              {billingCycle === "monthly" ? "+R$ 1,00" : "+R$ 10,00"}
+              {billingCycle === "unico" ? "+R$ 1,00" : "+R$ 10,00"}
             </p>
           </div>
         </div>
@@ -93,7 +93,7 @@ const FormStep3 = () => {
           </div>
           <div>
             <p className="text-neutral-cool-gray">
-              {billingCycle === "monthly" ? "+R$ 2,00" : "+R$ 20,00"}
+              {billingCycle === "unico" ? "+R$ 2,00" : "+R$ 20,00"}
             </p>
           </div>
         </div>
@@ -125,7 +125,7 @@ const FormStep3 = () => {
           </div>
           <div>
             <p className="text-neutral-cool-gray">
-              {billingCycle === "monthly" ? "+R$ 2,00" : "+R$ 20,00"}
+              {billingCycle === "unico" ? "+R$ 2,00" : "+R$ 20,00"}
             </p>
           </div>
         </div>
